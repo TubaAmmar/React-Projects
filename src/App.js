@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Footer from "./Ecommerce/Footer";
+//import { add, sub, multiply } from "./Calc";
+import Header from './Ecommerce/Header';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Main from "./Ecommerce/Mainpage";
+import Makeup1 from "./Ecommerce/makeup/Makeup1";
+import {Link,Routes,Route, BrowserRouter} from 'react-router-dom';
+
+
+
+
+
+
+
+
+
+function App(){
+    return(
+        <>
+       
+        <Makeup1 />
+       
+       
+
+       
+       
+          
+     
+       
+
+    
+
+        
+
+          
+
+          
+        </>
+    )
 }
 
 export default App;
